@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codify</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="menu">
+                <div class="lang-bar">
+                    <button type="button" onclick="setLangBar()">
+                        RUS <img src="images/icon-down.png" alt="icon" draggable="false">
+                    </button>
+                    <a href="eng.html">ENG</a>
+                </div>
+                <button type="button" class="btn" onclick="webscroll(1)">Главное</button>
+                <button type="button" class="btn" onclick="webscroll(2)">Наши сайты</button>
+                <button type="button" class="btn" onclick="webscroll(3)">Услуги</button>
+                <button type="button" class="btn" onclick="webscroll(4)">Портфолио</button>
+                <button type="button" class="btn" onclick="webscroll(5)">Подарок</button>
+                <button type="button" class="btn" onclick="webscroll(6)">Как связаться с нами</button>
+            </div>
+            <div class="menu-control-pos">
+                <div class="menu-control">
+                    <button type="button" class="menu-btn" onclick="setMenuBar()">
+                        <span class="side1"></span>
+                        <span class="side2"></span>
+                        <span class="side3"></span>
+                    </button>
+                    <h4>Меню</h4>
+                </div>
+            </div>
+            <div class="logo"></div>
+            <div class="call-order">
+                <p>+374 77 106 548</p>
+                <button type="button" onclick="webscroll(6)">
+                    ЗАКAЗАТЬ ЗВОНОК
+                </button>
+            </div>
+        </div>
+        <div class="home">
+            <div class="home-info">
+                <div class="home-side"></div>
+                <h1>РАЗРАБОТКА САЙТОВ</h1>
+                <h3>ДЛЯ ВАШЕГО БИЗНЕСА</h3>
+                <p>Мощное сачетание маркетинга и технологий.<br>Мы саздаем уникальные сайты, которые помогают<br>вам развивать бизнес и опережать конкурентов.</p>
+                <button type="button" onclick="webscroll(6)">Обсудить проект</button>
+            </div>
+            <div class="home-circle">
+                <div class="home-circle-sm">
+                    <button type="button" class="circle-btn" onclick="webscroll(4)">
+                        <img src="images/icon-polygon.png" alt="play" draggable="false">
+                        <div>
+                            <h6>Посматрите наши</h6>
+                            <p>Выполненые проекты</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container">
+        <div class="section">
+            <h2>Наши сайты</h2>
+            <div class="section-row">
+                <div class="section-col">
+                    <div class="section-col-circle"></div>
+                    <p>Показывают<br>ваши товары выгодно<br>и эффективно</p>
+                </div>
+                <div class="section-col">
+                    <div class="section-col-circle"></div>
+                    <p>Вызивают<br>завитсь у ваших<br>канкурентов</p>
+                </div>
+                <div class="section-col">
+                    <div class="section-col-circle"></div>
+                    <p>Увеличивают<br>уровень ваших<br>продаж</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-container">
+        <div class="info">
+            <h2>Услуги</h2>
+            <div class="info-item">
+                <div class="info-item-text">
+                    <h3>Landing page</h3>
+                    <p>Одна станичный сайт, побуждающий посетителя<br>сайта к конкретному действию: покупку товара<br>или услуги, подписке к рассылке, скачиванию<br>каталога и т. д</p>
+                    <button type="button" onclick="webscroll(6)">Обсудить проект</button>
+                </div>
+                <div class="info-item-img">
+                    <img src="images/info1.svg" alt="vector" draggable="false">
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="info-item-text">
+                    <h3>Корпоративный сайт</h3>
+                    <p>Многостраничный сайт, имеющий сложную<br>структуру. Такого типа сайты рассказывают<br>о компании и демонстрируют продаваемые<br>товары и услуги.</p>
+                    <button type="button" onclick="webscroll(6)">Обсудить проект</button>
+                </div>
+                <div class="info-item-img">
+                    <img src="images/info2.svg" alt="vector" draggable="false">
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="info-item-text">
+                    <h3>Интернет-магазин</h3>
+                    <p>Многостраничный сайт, предназначенный<br>для электронной торговли и позволяющий<br>посетителям сайта покупать товары и услуги<br>через интернет.</p>
+                    <button type="button" onclick="webscroll(6)">Обсудить проект</button>
+                </div>
+                <div class="info-item-img">
+                    <img src="images/info3.svg" alt="vector" draggable="false">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-container">
+        <div class="portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-items">
+                <div>
+                    <img src="images/portfolio-1.png" alt="vector" draggable="false">
+                </div>
+                <div>
+                    <img src="images/portfolio-2.png" alt="vector" draggable="false">
+                </div>
+                <div>
+                    <img src="images/portfolio-3.png" alt="vector" draggable="false">
+                </div>
+                <div>
+                    <img src="images/portfolio-4.png" alt="vector" draggable="false">
+                </div>
+                <div>
+                    <img src="images/portfolio-5.png" alt="vector" draggable="false">
+                </div>
+                <div>
+                    <img src="images/portfolio-6.png" alt="vector" draggable="false">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer-container">
+        <div class="offer">
+            <div class="offer-info">
+                <h3>Получите логотип в подарок к Landing page</h3>
+                <div class="special-offer">
+                    <img src="images/surprise-icon.png" alt="surprise" draggable="false">
+                    <h4>Бесплатно</h4>
+                    <h5>-10 000 руб.</h5>
+                </div>
+                <p>Логотип - важнейший элемент. Он выражает суть компании с помощью графики. ваздействует на подсознание людей и вызывает у них доверие к компании.<br><br>Все наши сайты направлены на формирование доверия у посетителей сайтов, поэтому и к созданию логотип мы подходим очень внимательно.</p>
+            </div>
+            <div class="offer-img">
+                <img src="images/offer-icon.png" alt="vector" draggable="false">
+            </div>
+        </div>
+    </div>
+    <div class="contact-container">
+        <div class="contact">
+            <h2>Как связаться с нами?</h2>
+            <div class="contact-main">
+                <div class="contact-info">
+                    <h4>Мы находимся в Ереване<br>и работаем удаленно по всему миру</h4>
+                    <div class="contact-info-main">
+                        <span></span>
+                        <div>
+                            <p>Звоните, пишите.</p>
+                            <a href="tel:+37477106548">+374 77 10 65 48</a>
+                            <a href="mailto:codifyproduction@gmail.com">codifyproduction@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h6>Или оставьте ваши данные, и мы<br>свяжемся с вами в ближайшее время</h6>
+                    <form>
+                        <input type="text" placeholder="Ваше имя и фамилия" minlength="6" maxlength="24" required >
+                        <input type="number" placeholder="Тел. Номер" minlength="8" required >
+                        <button type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-logo"></div>
+            <div class="navbar">
+                <button type="button" onclick="webscroll(1)">Главное</button>
+                <button type="button" onclick="webscroll(2)">Наши сайти</button>
+                <button type="button" onclick="webscroll(3)">Услуги</button>
+                <button type="button" onclick="webscroll(4)">Портфолио</button>
+                <button type="button" onclick="webscroll(5)">Подарок</button>
+                <button type="button" onclick="webscroll(6)">Как связаться с нами</button>
+            </div>
+            <div class="footer-info">
+                <div class="footer-contact">
+                    <p>Звоните.<a href="tel:+37477106548">+374 77 10 65 48</a><a href="tel:+37491330447">+374 91 33 04 47</a></p>
+                    <p>Пишите.<a href="mailto:codifyproduction@gmail.com">codifyproduction@gmail.com</a></p>
+                </div>
+                <div class="footer-links">
+                    <p>Следите за нами в:</p>
+                    <div>
+                        <a href="https://www.instagram.com/codify__/" target="_blank" rel="noopener noreferrer"><img src="images/insta-icon.png" alt="instagram" draggable="false"></a>
+                        <a href="https://www.facebook.com/Codify-studio-104298441471125/?modal=admin_todo_tour" target="_blank" rel="noopener noreferrer"><img src="images/fb-icon.png" alt="facebook" draggable="false"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-main">
+                <p>2020&copy; Codify. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
